@@ -1,0 +1,18 @@
+.main {
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 4;
+}
+
+.header1 {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.header1,
+.header2,
+.header3,
+.header4 {
+    letter-spacing: 3px;
+}

@@ -1,0 +1,94 @@
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding: 1vh 1vw;
+    border-radius: 5px;
+    /* justify-content: center;
+    align-items: flex-start; */
+}
+
+/* .main {
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 4;
+} */
+
+.header1 {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    color: #EFD42A;
+}
+
+.header1,
+.header2,
+.header3,
+.header4 {
+    letter-spacing: 3px;
+    font-family: 'bobs_burgers_hand',
+            Tahoma,
+            Geneva,
+            Verdana,
+            sans-serif;
+}
+
+.input {
+    margin-top: 0vh;
+    margin-bottom: 1vh;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 
+        4px 4px 4px #00000020,
+        -4px -4px 4px #00000020,
+        4px -4px 4px #00000020,
+        -4px 4px 4px #00000020;
+    background-color: #FFFFFF;
+    resize: none;
+    outline: none;
+    font-size: 1.15rem;
+    font-family: 'bobs_burgers_hand',
+            Tahoma,
+            Geneva,
+            Verdana,
+            sans-serif;
+}
+
+.label {
+    color: #EFD42A;
+    font-weight: bolder;   
+    font-size: 2rem;
+    font-family: 'bobs_burgers_hand',
+            Tahoma,
+            Geneva,
+            Verdana,
+            sans-serif;display: inline-block; 
+}
+.errors {
+    color: #DF0604;
+    font-weight: 800;
+}
+
+.submitBtn {
+    width: min-content;
+    padding: 1vh 1vw;
+    margin: 1vh auto;
+    color: #EFD42A;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-family: inherit;
+    background-color: green;
+    border: 5px solid transparent;
+    box-shadow:
+        4px 4px 6px #00000020,
+        -4px -4px 6px #00000020,
+        4px -4px 6px #00000020,
+        -4px 4px 6px #00000020;
+}
+
+.submitBtn:disabled {
+    color:#EFD42A;
+    background-color: gray;
+}

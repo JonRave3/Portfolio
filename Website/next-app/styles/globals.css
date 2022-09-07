@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'bobs_burgers';
+  src: url("/Bob's Burgers.ttf");
+  src: url("/Bob's Burgers 2.ttf");
+}
+
+@font-face {
+  font-family: 'bobs_burgers_hand';
+  src: url("/ClaireHandRegular.otf") format('opentype');
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: bobs_burgers, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  letter-spacing: .1vw;
+}
+body {
+  background-image: url('../assets/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main
+{
+  display: flex;
+  margin: auto 15vw;
+  height: 100%;
+  padding: 8vh 10vw;
+  margin-bottom: 8vh;
+}
+
+h1 {
+  font-size: 48pt;
+}
+
+span::first-letter, 
+h1::first-letter {
+  font-size: 115%;
+}
