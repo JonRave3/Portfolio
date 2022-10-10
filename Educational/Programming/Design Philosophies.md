@@ -1,0 +1,3 @@
+[Wiki]: https://en.wikipedia.org/wiki/List_of_software_development_philosophies
+
+List [here][Wiki].
